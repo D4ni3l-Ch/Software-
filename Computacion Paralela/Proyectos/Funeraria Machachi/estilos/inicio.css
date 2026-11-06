@@ -1,0 +1,130 @@
+/* CSS Document */
+
+
+*{
+	margin: 0;
+	pading: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+ 
+
+
+.cabezera{
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;	
+	padding: 1rem 2rem;
+	background: #F4F7F6;
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+
+.cabezera h1{
+	font-size: 2rem;
+	color: #1E293B;
+	
+}
+
+
+.cabezera a{
+	padding: 1rem 2rem;
+	text-decoration: none;
+	font-size: 1rem;
+	color: #1E293B;
+	font-family: arial;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+.inicio{
+	margin: 2rem;
+	padding: 1rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap:2rem;
+	background:#F4F7F6;
+	justify-content: center;
+	border: 1px solid #1E293B;
+	border-radius: 1rem;
+	
+}
+
+.inicio h2{
+	font-size: 2rem;
+	color: #1E293B;
+	
+}
+
+.inicio p{
+	font-size: 20px;
+	color: #1E293B;
+	
+}
+
+.servicios{
+	
+	max-width: 100%;
+	background: #FDFBF7;
+	margin: 2rem;
+}
+
+.servicios div{
+	
+	display: grid;
+	grid-template: 1fr 1fr/ 1fr 1fr;
+	width: 100%;
+	gap:1rem;
+
+}
+
+.servicios_mensaje{
+	
+	font-size: 1rem;
+	color: #1E293B;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+
+.tarjeta{
+	padding: 1rem 2rem;
+	border: 1px solid #1E293B;
+	border-radius: 1rem;
+	background: #F4F7F6;
+}
+
+.tarjeta h3{
+	margin-bottom: 1rem;
+	
+}
+.tarjeta p{
+	font-size: 1rem;
+	
+}
+
+.contactos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #F4F7F6;
+	margin: 2rem;
+	padding: 1rem 2rem;
+}
+
+.contactos p{
+	margin:1rem 0rem;
+}
+
+.contactos img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
